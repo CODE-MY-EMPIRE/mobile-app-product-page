@@ -1,0 +1,78 @@
+'use client';
+
+import React from 'react';
+import Image from 'next/image';
+import Container from '@/components/ui/Container';
+import Button from '@/components/ui/Button';
+import { FiZap, FiUsers, FiBarChart2 } from 'react-icons/fi';
+import { heroFeaturesData } from './hero.data';
+
+
+const iconMap: Record<string, React.ReactNode> = {
+	zap: <FiZap />,
+	users: <FiUsers />,
+	analytics: <FiBarChart2 />,
+};
+
+const HeroFeatures = () => {
+	return (
+		<section className="py-20 bg-background text-foreground">
+			<Container className="flex flex-col md:flex-row items-center gap-12">
+				{/* LEFT */}
+				<div className="flex-1 space-y-6 text-center md:text-left">
+					<h1>{heroFeaturesData.headline}</h1>
+
+					{heroFeaturesData.subheadline && (
+						<p>{heroFeaturesData.subheadline}</p>
+					)}
+
+					{/* Features */}
+					<div className="space-y-3">
+						{heroFeaturesData.features.map((feature, index) => (
+							<div
+								key={index}
+								className="flex items-start gap-3 justify-center md:justify-start"
+							>
+								{feature.icon && (
+									<div className="text-primary mt-1">
+										{iconMap[feature.icon as string]}
+									</div>
+								)}
+
+								<div>
+									<p className="font-medium text-foreground">{feature.title}</p>
+									{feature.description && <small>{feature.description}</small>}
+								</div>
+							</div>
+						))}
+					</div>
+
+					{/* CTA */}
+					<div className="pt-4 flex justify-center md:justify-start">
+						<Button
+							size="lg"
+							onClick={() => (window.location.href = heroFeaturesData.cta.href)}
+						>
+							{heroFeaturesData.cta.text}
+						</Button>
+					</div>
+				</div>
+
+				{/* RIGHT IMAGE */}
+				{heroFeaturesData.image && (
+					<div className="flex-1 flex justify-center md:justify-end">
+						<Image
+							src={heroFeaturesData.image as string}
+							alt="Feature Illustration"
+							width={500}
+							height={400}
+							className="rounded-xl shadow"
+						/>
+					</div>
+				)}
+			</Container>
+		</section>
+	);
+};
+
+export default HeroFeatures;
