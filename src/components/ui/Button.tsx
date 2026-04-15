@@ -21,13 +21,11 @@ const Button = ({
 	// Variant styles
 	const variantClasses = {
 		primary: `
-      bg-primary border-2 border-primary text-primary-foreground
-      hover:bg-transparent hover:text-primary active:bg-primary/80
+      bg-primary border-2 border-primary text-primary-foreground font-bold hover:bg-transparent hover:text-primary active:bg-primary/80
     `,
 		secondary: `
-      border-2 border-primary text-primary
-      bg-transparent
-      hover:bg-primary active:bg-primary/20
+      border-2 border-primary text-primary font-bold
+      bg-transparent hover:bg-primary active:bg-primary/20
       hover:text-primary-foreground
     `,
 	};
