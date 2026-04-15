@@ -19,24 +19,29 @@
   --primary-foreground: #1F2A24;
 
   /* Text */
-  --muted-foreground: #6F7F76;
+  --muted-foreground: #3F4F47;
 }
 
 
 /* Dark Mode */
 
 .dark {
+  /* Base Colors */
   --background: #1E2A24;
   --foreground: #E6EFE9;
 
+  /* Surface*/
   --card: #26352D;
   --muted: #1A241F;
 
+  /* Borders */
   --border: #34463D;
 
+   /* Brand */
   --primary: #8FB996;
   --primary-foreground: #0F1512;
 
+    /* Text */
   --muted-foreground: #A7B5AC;
 }
 
@@ -56,8 +61,8 @@
 
   --color-muted-foreground: var(--muted-foreground);
 
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-nunito);
+  --font-serif: var(--font-merriweather);
 }
 
 /* Base Styles */
@@ -65,7 +70,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-nunito), system-ui, sans-serif;
 }
 
 /* Smooth UI */

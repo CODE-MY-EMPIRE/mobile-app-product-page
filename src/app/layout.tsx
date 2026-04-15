@@ -1,21 +1,22 @@
 import ThemeProviderWrapper from './ThemeProviderWrapper';
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Nunito, Merriweather } from 'next/font/google';
 import './globals.css';
 
-const geistSans = Geist({
-	variable: '--font-geist-sans',
+const nunito = Nunito({
+	variable: '--font-nunito',
 	subsets: ['latin'],
 });
 
-const geistMono = Geist_Mono({
-	variable: '--font-geist-mono',
+const merriweather = Merriweather({
+	variable: '--font-merriweather',
 	subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-	title: 'Next.js Starter Kit',
-	description: 'Reusable Next.js components with dark mode',
+	title: 'Avenue One',
+	description:
+		'Avenue One is a platform for creating and managing your business.',
 };
 
 export default function RootLayout({
@@ -29,7 +30,7 @@ export default function RootLayout({
 			suppressHydrationWarning
 		>
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+				className={`${nunito.variable} ${merriweather.variable} antialiased bg-background text-foreground`}
 			>
 				<ThemeProviderWrapper>{children}</ThemeProviderWrapper>
 			</body>
