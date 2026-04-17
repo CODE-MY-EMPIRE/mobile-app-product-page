@@ -13,8 +13,9 @@ import Container from '../../ui/Container';
 // ✅ Navigation data
 const navLinks = [
 	{ label: 'Features', href: '#features' },
-	{ label: 'Pricing', href: '#pricing' },
+	{ label: 'Product', href: '#how-it-works' },
 	{ label: 'Testimonials', href: '#testimonials' },
+	{ label: 'FAQ', href: '#faq' },
 	{ label: 'Contact', href: '#contact' },
 ];
 
@@ -46,8 +47,6 @@ const NavbarCTA = () => {
 
 				{/* Desktop Actions */}
 				<div className="hidden md:flex items-center gap-4">
-					<NavLink href="/login">Login</NavLink>
-
 					<Button variant="primary">Get Started</Button>
 
 					<ThemeToggle />
