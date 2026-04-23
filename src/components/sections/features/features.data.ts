@@ -8,23 +8,11 @@ export type FeaturesSplitData = {
 	};
 };
 
-export type FeaturesData = {
-	title: string;
-	description: string;
-	icon: string;
-};
-
-export type FeaturesCenteredData = {
-	title: string;
-	description: string;
-	icon: string;
-};
-
 export const featuresSplitData: FeaturesSplitData[] = [
 	{
-		title: 'Powerful Dashboard',
+		title: 'Different Bible Versions',
 		description:
-			'Manage everything from one place with a clean and intuitive interface.',
+			'Explore the Bible in a wide range of trusted versions and translations. Easily switch between translations to compare meaning and deepen your understanding of each passage. Read comfortably in your preferred language for a more personal and accessible experience.',
 		image: '/images/dashboard.png',
 		cta: {
 			text: 'Learn More',
@@ -32,8 +20,9 @@ export const featuresSplitData: FeaturesSplitData[] = [
 		},
 	},
 	{
-		title: 'Real-time Collaboration',
-		description: 'Work with your team in real time from anywhere in the world.',
+		title: 'Track Your Progress',
+		description:
+			'Stay motivated by tracking your Bible reading journey in real time. Clearly see which books and chapters you’ve completed and what’s left to explore. Visual progress indicators help you build consistency and reach your reading goals.',
 		image: '/images/dashboard-img.png',
 		cta: {
 			text: 'Learn More',
@@ -41,40 +30,13 @@ export const featuresSplitData: FeaturesSplitData[] = [
 		},
 	},
 	{
-		title: 'Advanced Analytics',
+		title: 'Custom Bible Reading Plan',
 		description:
-			'Track performance and gain insights with powerful analytics tools.',
+			'Create personalized Bible reading plans tailored to your schedule and goals. Choose specific books, themes, or timeframes that fit your spiritual journey. Stay organized and consistent with a plan designed just for you.',
 		image: '/images/dashboard-img.png',
 		cta: {
 			text: 'Learn More',
 			href: '#',
 		},
-	},
-];
-
-export const featuresData: FeaturesData[] = [
-	{
-		title: 'Fast Setup',
-		description: 'Get your project running in minutes.',
-		icon: 'zap',
-	},
-	{
-		title: 'Team Collaboration',
-		description: 'Work with your team seamlessly.',
-		icon: 'users',
-	},
-	{
-		title: 'Analytics',
-		description: 'Track your performance easily.',
-		icon: 'analytics',
-	},
-];
-
-export const featuresCenteredData: FeaturesCenteredData[] = [
-	{
-		title: 'Powerful Dashboard',
-		description:
-			'Manage everything from one place with a clean and intuitive interface.',
-		icon: 'zap',
 	},
 ];
