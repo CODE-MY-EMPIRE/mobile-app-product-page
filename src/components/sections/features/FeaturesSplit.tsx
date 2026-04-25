@@ -12,8 +12,8 @@ const FeaturesSplit = () => {
 		<section className="py-20 bg-background text-foreground">
 			<Container className="space-y-20">
 				<SectionHeader
-					heading="Everything you need to grow"
-					subheading="Powerful features to help you build, launch, and scale faster."
+					heading="Features You'll Love"
+					subheading="Everything you need to read, stay consistent, and grow in your Bible journey."
 				/>
 				{featuresSplitData.map((feature, index) => {
 					const isReversed = index % 2 !== 0;
