@@ -42,15 +42,10 @@ const Button = ({
 			className={`font-medium transition flex items-center justify-center cursor-pointer ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
 			{...props}
 		>
-			{/* Left Icon */}
 			{icon && iconPosition === 'left' && (
 				<span className="flex items-center">{icon}</span>
 			)}
-
-			{/* Text */}
 			{children}
-
-			{/* Right Icon */}
 			{icon && iconPosition === 'right' && (
 				<span className="flex items-center">{icon}</span>
 			)}
