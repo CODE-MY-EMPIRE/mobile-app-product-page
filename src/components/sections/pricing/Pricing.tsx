@@ -13,7 +13,7 @@ const PricingSection = () => {
 			<Container>
 				<SectionHeader
 					heading="Simple, Transparent Pricing"
-					subheading="Choose the plan that fits your needs and launch fast."
+					subheading="Choose the plan that fits your needs."
 				/>
 
 				<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-10">
