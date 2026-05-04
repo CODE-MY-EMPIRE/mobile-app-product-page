@@ -5,33 +5,33 @@ export interface FAQItem {
 
 export const faqData: FAQItem[] = [
 	{
-		question: 'What is this product and who is it for?',
+		question: 'What is this app and who is it for?',
 		answer:
-			'This is a modern SaaS starter kit designed for developers, startups, and teams who want to build and launch products faster with a clean and scalable foundation.',
+			'This app is a Bible study tracker designed for anyone who wants to stay consistent in their Scripture reading. Whether you are just starting or aiming to complete the entire Bible, it helps you stay organized and focused.',
 	},
 	{
-		question: 'Can I use this for commercial projects?',
+		question: 'How does the tracking work?',
 		answer:
-			'Yes, you can use this starter kit for both personal and commercial projects without any restrictions.',
+			'You can mark chapters as complete once you finish studying them. This helps you clearly see what you’ve covered and what still remains, so you don’t accidentally repeat or skip sections.',
 	},
 	{
-		question: 'Does it support dark mode?',
+		question: 'Can I track my progress through the whole Bible?',
 		answer:
-			'Yes, the design system is built using CSS variables and fully supports light and dark mode out of the box.',
+			'Yes, the app is perfect for full-Bible challenges. You can monitor your overall progress and stay motivated as you move closer to completing every book and chapter.',
 	},
 	{
-		question: 'Is this optimized for performance?',
+		question: 'Will I lose my progress if I switch devices?',
 		answer:
-			'Absolutely. It uses Next.js App Router, optimized images, and a clean component structure to ensure fast performance.',
+			'No, your progress is saved and synced depending on your setup, so you can continue your study seamlessly across devices.',
 	},
 	{
-		question: 'Can I customize the components?',
+		question: 'Can I customize my study experience?',
 		answer:
-			'Yes, all components are designed to be reusable and easily customizable to fit your brand and product needs.',
+			'Yes, the app is designed to be flexible. You can track your reading at your own pace and focus on the books or chapters that matter most to you.',
 	},
 	{
-		question: 'Do I need Tailwind knowledge to use this?',
+		question: 'Is this app suitable for beginners?',
 		answer:
-			'Basic Tailwind knowledge helps, but the system is structured so you can reuse components without needing to write much styling yourself.',
+			'Absolutely. The simple tracking system makes it easy for beginners to stay consistent, while still being useful for more experienced readers who want structured progress tracking.',
 	},
 ];
