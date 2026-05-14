@@ -1,5 +1,5 @@
 'use client';
-	
+
 import Container from '@/components/ui/Container';
 import { partnersData } from './partners.data';
 

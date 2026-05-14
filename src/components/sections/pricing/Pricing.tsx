@@ -1,6 +1,5 @@
 'use client';
 
-import React from 'react';
 import Container from '@/components/ui/Container';
 import SectionHeader from '@/components/ui/SectionHeader';
 import Card from '@/components/ui/Card';
