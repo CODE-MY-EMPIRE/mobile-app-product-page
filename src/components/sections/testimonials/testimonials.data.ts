@@ -1,11 +1,3 @@
-export interface Testimonial {
-	quote: string;
-	name: string;
-	role: string;
-	avatar: string;
-	company?: string;
-}
-
 export interface TestimonialCarousel {
 	quote: string;
 	name: string;
@@ -15,108 +7,57 @@ export interface TestimonialCarousel {
 	rating?: number;
 }
 
-export const testimonials: Testimonial[] = [
-	{
-		quote:
-			"This product completely transformed how our team works. It's fast, intuitive, and beautifully designed.",
-		name: 'Sarah Johnson',
-		role: 'Product Manager',
-		company: 'TechFlow',
-		avatar: '/images/user.png',
-	},
-	{
-		quote:
-			'We increased our productivity by 40% after switching. Highly recommended for any growing startup.',
-		name: 'Michael Chen',
-		role: 'Founder',
-		company: 'Startly',
-		avatar: '/images/user.png',
-	},
-	{
-		quote:
-			"The best SaaS tool we've used in years. The attention to detail is incredible.",
-		name: 'Emily Davis',
-		role: 'Design Lead',
-		company: 'PixelWorks',
-		avatar: '/images/user.png',
-	},
-	{
-		quote:
-			'A must-have tool for any modern team. It saved us countless hours every week.',
-		name: 'David Kim',
-		role: 'Engineering Manager',
-		company: 'DevCore',
-		avatar: '/images/user.png',
-	},
-	{
-		quote:
-			'Simple, powerful, and reliable. Exactly what we needed to scale our workflow.',
-		name: 'Sophia Martinez',
-		role: 'Operations Lead',
-		company: 'ScaleOps',
-		avatar: '/images/user.png',
-	},
-	{
-		quote:
-			'The UI is beautiful and the performance is outstanding. Highly impressed.',
-		name: 'James Wilson',
-		role: 'Frontend Developer',
-		company: 'UIWorks',
-		avatar: '/images/user.png',
-	},
-];
-
 export const testimonialsCarousel: TestimonialCarousel[] = [
 	{
 		quote:
-			"This product completely transformed how our team works. It's fast, intuitive, and beautifully designed.",
+			'This app helped me stay consistent with my Bible reading for the first time. Tracking completed chapters keeps me motivated every day.',
 		name: 'Sarah Johnson',
-		role: 'Product Manager',
+		role: 'Daily Bible Reader',
 		company: 'TechFlow',
 		avatar: '/images/user.png',
 		rating: 5,
 	},
 	{
 		quote:
-			'We increased our productivity by 40% after switching. Highly recommended for any growing startup.',
+			'I love being able to mark books and chapters as completed. It makes my reading journey feel organized and achievable.',
 		name: 'Michael Chen',
-		role: 'Founder',
+		role: 'Church Volunteer',
 		company: 'Startly',
 		avatar: '/images/user.png',
 		rating: 5,
 	},
 	{
 		quote:
-			"The best SaaS tool we've used in years. The attention to detail is incredible.",
+			'The clean design and progress tracking make it so easy to keep up with my Bible study routine.',
 		name: 'Emily Davis',
-		role: 'Design Lead',
+		role: 'Bible Study Leader',
 		company: 'PixelWorks',
 		avatar: '/images/user.png',
 		rating: 4,
 	},
 	{
 		quote:
-			'A must-have tool for any modern team. It saved us countless hours every week.',
+			'Being able to see which chapters I have already read has made my scripture study much more consistent.',
 		name: 'David Kim',
-		role: 'Engineering Manager',
+		role: 'Youth Mentor',
 		company: 'DevCore',
 		avatar: '/images/user.png',
 		rating: 5,
 	},
 	{
 		quote:
-			'Simple, powerful, and reliable. Exactly what we needed to scale our workflow.',
+			'Simple, encouraging, and easy to use. I finally completed reading an entire book of the Bible without losing track.',
 		name: 'Sophia Martinez',
-		role: 'Operations Lead',
+		role: 'Community Coordinator',
 		company: 'ScaleOps',
 		avatar: '/images/user.png',
 		rating: 5,
 	},
 	{
 		quote:
-			'The UI is beautiful and the performance is outstanding. Highly impressed.',
+			'This is one of the best Bible tracking apps I have used. The experience feels smooth and distraction-free.',
 		name: 'James Wilson',
-		role: 'Frontend Developer',
+		role: 'Scripture Enthusiast',
 		company: 'UIWorks',
 		avatar: '/images/user.png',
 		rating: 4,
