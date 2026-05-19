@@ -2,7 +2,6 @@
 
 import NavbarCTA from '@/components/layout/Navbar/NavbarCTA';
 import Container from '@/components/ui/Container';
-import FooterMultiColumn from '@/components/layout/Footer/FooterMultiColumn';
 import HeroMobileApp from '@/components/sections/hero/HeroMobileApp';
 import FeaturesSplit from '@/components/sections/features/FeaturesSplit';
 import Pricing from '@/components/sections/pricing/Pricing';
@@ -11,6 +10,7 @@ import { Faq } from '@/components/sections/faq/Faq';
 import CTA from '@/components/ui/CTA';
 import HowItWorks from '@/components/sections/how-it-works/HowItWorks';
 import { Partner } from '@/components/sections/partners/Partner';
+import FooterMinimal from '@/components/layout/Footer/FooterMinimal';
 
 export default function Home() {
 	return (
@@ -29,7 +29,7 @@ export default function Home() {
 					<CTA />
 				</Container>
 			</main>
-			<FooterMultiColumn />
+			<FooterMinimal />
 		</div>
 	);
 }
