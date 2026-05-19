@@ -15,7 +15,10 @@ export function Faq() {
 	};
 
 	return (
-		<section className="py-20">
+		<section
+			id="faq"
+			className="py-20"
+		>
 			<Container>
 				<SectionHeader
 					heading="Frequently Asked Questions"

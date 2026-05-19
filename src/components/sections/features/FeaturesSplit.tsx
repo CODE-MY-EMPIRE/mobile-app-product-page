@@ -8,7 +8,10 @@ import { featuresSplitData } from './features.data';
 
 const FeaturesSplit = () => {
 	return (
-		<section className="py-20 bg-background text-foreground">
+		<section
+			id="features"
+			className="py-20 bg-background text-foreground"
+		>
 			<Container className="space-y-20">
 				<SectionHeader
 					heading="Features You'll Love"

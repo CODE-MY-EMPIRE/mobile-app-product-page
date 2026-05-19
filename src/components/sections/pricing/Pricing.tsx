@@ -8,7 +8,10 @@ import { FiCheck } from 'react-icons/fi';
 
 const PricingSection = () => {
 	return (
-		<section className="py-20 bg-background text-foreground">
+		<section
+			id="pricing"
+			className="py-20 bg-background text-foreground"
+		>
 			<Container>
 				<SectionHeader
 					heading="Simple, Transparent Pricing"

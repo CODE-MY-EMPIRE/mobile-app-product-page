@@ -9,7 +9,10 @@ import { FaStar } from 'react-icons/fa';
 
 export function TestimonialCarousel() {
 	return (
-		<section className="py-20 overflow-hidden">
+		<section
+			id="testimonials"
+			className="py-20 overflow-hidden"
+		>
 			<Container>
 				<SectionHeader
 					heading="Testimonials"

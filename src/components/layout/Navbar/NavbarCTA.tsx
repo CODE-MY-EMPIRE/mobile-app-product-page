@@ -10,13 +10,13 @@ import NavLink from './NavLink';
 import MobileMenu from './MobileMenu';
 import Container from '../../ui/Container';
 
-// ✅ Navigation data
+// Navigation data
 const navLinks = [
 	{ label: 'Features', href: '#features' },
-	{ label: 'Product', href: '#how-it-works' },
+	{ label: 'How It Works', href: '#how-it-works' },
+	{ label: 'Pricing', href: '#pricing' },
 	{ label: 'Testimonials', href: '#testimonials' },
 	{ label: 'FAQ', href: '#faq' },
-	{ label: 'Contact', href: '#contact' },
 ];
 
 const NavbarCTA = () => {

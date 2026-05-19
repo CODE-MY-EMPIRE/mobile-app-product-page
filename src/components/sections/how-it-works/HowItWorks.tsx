@@ -8,7 +8,10 @@ import { steps } from './howItWorks.data';
 
 const HowItWorks = () => {
 	return (
-		<section className="py-20 bg-background text-foreground">
+		<section
+			id="how-it-works"
+			className="py-20 bg-background text-foreground"
+		>
 			<Container>
 				<SectionHeader
 					heading="Get Started in 3 Easy Steps"
