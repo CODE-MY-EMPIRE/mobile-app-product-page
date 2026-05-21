@@ -10,7 +10,6 @@ const HeroMobileApp = () => {
 	return (
 		<section className="py-20 bg-background text-foreground">
 			<Container className="flex flex-col md:flex-row items-center gap-12">
-				{/* LEFT */}
 				<div className="flex-1 space-y-6 text-center md:text-left">
 					<h1>{heroMobileAppData.headline}</h1>
 
@@ -24,7 +23,8 @@ const HeroMobileApp = () => {
 								size="lg"
 								icon={<FaApple />}
 								onClick={() =>
-									(window.location.href = heroMobileAppData.iosCTA.href)
+									(window.location.href =
+										'https://apps.apple.com/us/iphone/apps')
 								}
 							>
 								{heroMobileAppData.iosCTA.text}
@@ -37,7 +37,7 @@ const HeroMobileApp = () => {
 								size="lg"
 								icon={<FaGooglePlay />}
 								onClick={() =>
-									(window.location.href = heroMobileAppData.androidCTA.href)
+									(window.location.href = 'https://play.google.com/store/apps/')
 								}
 							>
 								{heroMobileAppData.androidCTA.text}
@@ -45,8 +45,6 @@ const HeroMobileApp = () => {
 						)}
 					</div>
 				</div>
-
-				{/* RIGHT IMAGE */}
 				<div className="flex-1 flex justify-center md:justify-end">
 					<Image
 						src={heroMobileAppData.image}
