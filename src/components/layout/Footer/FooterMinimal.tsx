@@ -16,7 +16,7 @@ const FooterMinimal = () => {
 			<Container className="flex flex-col gap-4">
 				<div className="flex flex-col md:flex-row items-center justify-between gap-4">
 					{/* Logo */}
-					<div className="text-lg font-bold">YourLogo</div>
+					<div className="text-lg font-bold">BibleFlow</div>
 
 					{/* Links */}
 					<div className="flex gap-6">
@@ -56,7 +56,7 @@ const FooterMinimal = () => {
 				{/* Copyright */}
 				<div className="py-3 text-center">
 					<p className="text-sm text-muted-foreground">
-						© {new Date().getFullYear()} YourCompany. All rights reserved.
+						© {new Date().getFullYear()} BibleFlow. All rights reserved.
 					</p>
 				</div>
 			</Container>
