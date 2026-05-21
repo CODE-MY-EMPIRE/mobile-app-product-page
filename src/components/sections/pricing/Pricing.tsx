@@ -5,6 +5,7 @@ import SectionHeader from '@/components/ui/SectionHeader';
 import Card from '@/components/ui/Card';
 import { pricingData } from './pricing.data';
 import { FiCheck } from 'react-icons/fi';
+import Link from 'next/link';
 
 const PricingSection = () => {
 	return (
@@ -29,7 +30,9 @@ const PricingSection = () => {
 									<h3>{plan.title}</h3>
 									<span className="text-2xl font-bold text-primary">
 										{plan.price}
-										<span className="text-xs text-gray-500">/Month</span>
+										<span className="text-xs text-muted-foreground">
+											/Month
+										</span>
 									</span>
 									<p>{plan.description}</p>
 								</div>
@@ -46,9 +49,12 @@ const PricingSection = () => {
 									))}
 								</ul>
 							</div>
-							<button className="mt-6 px-6 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition">
+							<Link
+								href="/pricing"
+								className="mt-6 px-6 py-2 font-bold bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition"
+							>
 								{plan.ctaText}
-							</button>
+							</Link>
 						</Card>
 					))}
 				</div>
