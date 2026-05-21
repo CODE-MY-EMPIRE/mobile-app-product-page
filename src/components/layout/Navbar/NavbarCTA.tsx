@@ -30,7 +30,7 @@ const NavbarCTA = () => {
 					href="/"
 					className="text-lg font-bold"
 				>
-					YourLogo
+					BibleFlow
 				</Link>
 
 				{/* Desktop Navigation */}
