@@ -30,18 +30,6 @@ const FeaturesSplit = () => {
 							<div className="flex-1 space-y-4 text-center md:text-left">
 								<h2>{feature.title}</h2>
 								<p>{feature.description}</p>
-
-								{feature.cta && (
-									<div className="pt-4">
-										<Button
-											onClick={() =>
-												(window.location.href = feature.cta?.text as string)
-											}
-										>
-											{feature.cta?.text}
-										</Button>
-									</div>
-								)}
 							</div>
 
 							{/* IMAGE */}

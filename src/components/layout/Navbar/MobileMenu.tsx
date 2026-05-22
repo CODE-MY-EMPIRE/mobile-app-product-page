@@ -3,6 +3,7 @@
 import NavLink from './NavLink';
 import Button from '@/components/ui/Button';
 import ThemeToggle from '@/components/ui/ThemeToggle';
+import Link from 'next/link';
 
 type Props = {
 	open: boolean;
@@ -22,12 +23,12 @@ const MobileMenu = ({ open, links }: Props) => {
 					{link.label}
 				</NavLink>
 			))}
-			<Button
-				variant="primary"
+			<Link
+				href="#"
 				className="w-full"
 			>
-				Get Started
-			</Button>
+				Download App
+			</Link>
 
 			<ThemeToggle />
 		</div>
