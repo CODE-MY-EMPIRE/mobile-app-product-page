@@ -47,7 +47,12 @@ const NavbarCTA = () => {
 
 				{/* Desktop Actions */}
 				<div className="hidden md:flex items-center gap-4">
-					<Button variant="primary">Get Started</Button>
+					<Link
+						href="#home"
+						className="bg-primary text-primary-foreground px-4 py-2 text-base rounded-lg gap-2"
+					>
+						Download App
+					</Link>
 
 					<ThemeToggle />
 				</div>

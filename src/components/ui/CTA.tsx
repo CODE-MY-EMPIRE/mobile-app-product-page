@@ -5,7 +5,10 @@ import Button from './Button';
 
 const CTA = () => {
 	return (
-		<section className="py-16">
+		<section
+			className="py-16"
+			id="download"
+		>
 			<div className="flex flex-col justify-center items-center bg-primary/40 rounded-2xl p-16 text-center space-y-6">
 				<h2>Start your Bible study journey today</h2>
 				<div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
