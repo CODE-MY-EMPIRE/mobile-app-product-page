@@ -8,7 +8,10 @@ import { heroMobileAppData } from './hero.data';
 
 const HeroMobileApp = () => {
 	return (
-		<section className="py-20 bg-background text-foreground">
+		<section
+			id="home"
+			className="py-20 bg-background text-foreground"
+		>
 			<Container className="flex flex-col md:flex-row items-center gap-12">
 				<div className="flex-1 space-y-6 text-center md:text-left">
 					<h1>{heroMobileAppData.headline}</h1>
