@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-/* Design Tokens */
-
 :root {
   /* Base */
   --background: #F3F7F4;
@@ -129,7 +127,6 @@ html {
   animation: marquee 30s linear infinite;
 }
 
-/* Pause while interacting so people can read cards */
 .animate-marquee:focus-within {
   animation-play-state: paused;
 }
