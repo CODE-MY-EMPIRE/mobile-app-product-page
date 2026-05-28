@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { HiMenu, HiX } from 'react-icons/hi';
 
-import Button from '../../ui/Button';
 import ThemeToggle from '../../ui/ThemeToggle';
 import NavLink from './NavLink';
 import MobileMenu from './MobileMenu';

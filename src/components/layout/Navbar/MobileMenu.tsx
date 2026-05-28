@@ -1,7 +1,6 @@
 'use client';
 
 import NavLink from './NavLink';
-import Button from '@/components/ui/Button';
 import ThemeToggle from '@/components/ui/ThemeToggle';
 import Link from 'next/link';
 
