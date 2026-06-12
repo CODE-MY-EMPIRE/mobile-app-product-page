@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import Container from '@/components/ui/Container';
-import Button from '@/components/ui/Button';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { featuresSplitData } from './features.data';
 
