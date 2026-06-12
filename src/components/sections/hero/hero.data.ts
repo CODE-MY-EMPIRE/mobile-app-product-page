@@ -16,7 +16,7 @@ export const heroMobileAppData: HeroMobileAppData = {
 	headline: 'Track Your Bible Study Anywhere',
 	subheadline:
 		'Your personal Bible study companion in your pocket. Create and manage your Bible Study Plan.',
-	image: '/images/page2.png',
+	image: '/images/page6.png',
 	iosCTA: {
 		text: 'Download on iOS',
 		href: '#',
