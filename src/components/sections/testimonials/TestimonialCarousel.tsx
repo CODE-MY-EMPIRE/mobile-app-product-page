@@ -23,11 +23,11 @@ export function TestimonialCarousel() {
 					{/* Fade + light blur at edges so cards don’t clip to a hard line */}
 					<div
 						aria-hidden
-						className="pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-linear-to-r from-background via-background/40 to-transparent backdrop-blur-sm sm:w-2"
+						className="pointer-events-none absolute inset-y-0 left-0 z-10 w-5 md:w-20 bg-linear-to-r from-background via-background/40 to-transparent backdrop-blur-sm sm:w-2"
 					/>
 					<div
 						aria-hidden
-						className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-linear-to-l from-background via-background/40 to-transparent backdrop-blur-sm sm:w-2"
+						className="pointer-events-none absolute inset-y-0 right-0 z-10 w-5 md:w-20 bg-linear-to-l from-background via-background/40 to-transparent backdrop-blur-sm sm:w-2"
 					/>
 					<div className="flex w-max gap-4 animate-marquee">
 						{/* Duplicate for seamless loop */}

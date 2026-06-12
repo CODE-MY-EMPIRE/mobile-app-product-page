@@ -10,7 +10,7 @@ const HeroMobileApp = () => {
 	return (
 		<section
 			id="home"
-			className="bg-background text-foreground"
+			className="py-2 bg-background text-foreground"
 		>
 			<Container className="flex flex-col md:flex-row items-center gap-12">
 				<div className="flex-1 space-y-6 text-center md:text-left">
@@ -53,7 +53,7 @@ const HeroMobileApp = () => {
 						src={heroMobileAppData.image}
 						alt="Mobile App"
 						width={500}
-						height={500}
+						height={400}
 					/>
 				</div>
 			</Container>
